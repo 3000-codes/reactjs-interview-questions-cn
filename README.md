@@ -1,6 +1,7 @@
-# React Interview Questions & Answers
+# React 面试问题与答案
 
 > Click :star: if you like the project. Pull Requests are highly appreciated. Follow me [@SudheerJonna](https://twitter.com/SudheerJonna) for technical updates.
+> 如果您喜欢该项目，请点击 :star: 支持项目。高度欢迎 Pull Requests[原仓库](https://github.com/sudheerj/reactjs-interview-questions) 。关注原作者[@SudheerJonna](https://twitter.com/SudheerJonna) 获取技术更新。
 
 ---
 
@@ -13,6 +14,7 @@
 </div>
 
 > Practice 280+ JavaScript coding interview questions in-browser. Built by ex-FAANG interviewers. No AI-generated fluff. No fake reviews. [Try GreatFrontEnd →](https://www.greatfrontend.com/questions/react-interview-questions?utm_source=github&utm_medium=referral&utm_campaign=sudheerj-react&fpr=sudheerj&gnrs=sudheerj) 💡
+> 在浏览器中练习 280+ 道 JavaScript 编码面试问题。由 ex-FAANG 面试官构建。没有 AI 生成的 fluff。没有虚假的评论。[尝试 GreatFrontEnd →](https://www.greatfrontend.com/questions/react-interview-questions?utm_source=github&utm_medium=referral&utm_campaign=sudheerj-react&fpr=sudheerj&gnrs=sudheerj) 💡
 
 ---
 
@@ -25,6 +27,14 @@
       <li>I recommend this <a href="https://links.zerotomastery.io/react_sudheer">React course</a> if you’re serious about learning React and want to go beyond the basics.</li>
       <li>Want to ace your coding interview and get hired at your dream company? <a href="http://links.zerotomastery.io/mci_sudheer">Take this coding interview bootcamp</a>.</li>
     </ol>
+        <ol>
+    <li>原作者推荐这门<a href="https://links.zerotomastery.io/react_sudheer">React 课程</a> 
+       如果你是认真学习 React，并且希望不只停留在基础阶段。
+        </li>
+        <li>
+          想在编码面试中取得好成绩并被你的梦想公司录用？<a href="http://links.zerotomastery.io/mci_sudheer">参加这门编码面试训练营</a>。
+        </li>
+        </ol>
   </p>
 </div>
 
@@ -42,45 +52,47 @@
 
 **Note:** This repository is specific to ReactJS. Please check [JavaScript Interview Questions](https://github.com/sudheerj/javascript-interview-questions) for core JavaScript questions and [Data Structures and Algorithms](https://github.com/sudheerj/datastructures-algorithms) for DSA-related questions or problems.
 
-### Table of Contents
+**注意：** 本仓库仅针对 ReactJS。如果您对核心 JavaScript 问题或数据结构与算法问题感兴趣，请检查 [JavaScript 面试问题](https://github.com/sudheerj/javascript-interview-questions) 和 [数据结构与算法](https://github.com/sudheerj/datastructures-algorithms)。
+
+###  目录
 
 <details open>
 <summary>
-Hide/Show table of contents
+展示/隐藏目录
 </summary>
 
-| No. | Questions                                                                                                                                                                                                                        |
+| No. | 问题                                                                                                                                                                                                                       |
 | --- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     | **Core React**                                                                                                                                                                                                                   |
-| 1   | [What is React?](#what-is-react)                                                                                                                                                                                                 |
-| 2   | [What is the history behind React’s evolution?](#what-is-the-history-behind-react-evolution)                                                                                                                                      |
-| 3   | [What are the major features of React?](#what-are-the-major-features-of-react)                                                                                                                                                   |
-| 4   | [What is JSX?](#what-is-jsx)                                                                                                                                                                                                     |
-| 5   | [What is the difference between an Element and a Component?](#what-is-the-difference-between-an-element-and-a-component)                                                                                                              |
-| 6   | [How do you create components in React?](#how-to-create-components-in-react)                                                                                                                                                     |
-| 7   | [When should you use a Class Component over a Function Component?](#when-to-use-a-class-component-over-a-function-component)                                                                                                    |
-| 8   | [What are Pure Components?](#what-are-pure-components)                                                                                                                                                                           |
-| 9   | [What is state in React?](#what-is-state-in-react)                                                                                                                                                                               |
-| 10  | [What are props in React?](#what-are-props-in-react)                                                                                                                                                                             |
-| 11  | [What is the difference between state and props?](#what-is-the-difference-between-state-and-props)                                                                                                                               |
-| 12  | [What is the difference between HTML and React event handling?](#what-is-the-difference-between-html-and-react-event-handling)                                                                                                   |
-| 13  | [What are synthetic events in React?](#what-are-synthetic-events-in-react)                                                                                                                                                       |
-| 14  | [What are inline conditional expressions?](#what-are-inline-conditional-expressions)                                                                                                                                             |
-| 15  | [What is the "key" prop and what is its benefit when used in arrays of elements?](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                                                                    |
-| 16  | [What is the Virtual DOM?](#what-is-virtual-dom)                                                                                                                                                                                 |
-| 17  | [How does the Virtual DOM work?](#how-virtual-dom-works)                                                                                                                                                                         |
-| 18  | [What is the difference between Shadow DOM and Virtual DOM?](#what-is-the-difference-between-shadow-dom-and-virtual-dom)                                                                                                         |
-| 19  | [What is React Fiber?](#what-is-react-fiber)                                                                                                                                                                                     |
-| 20  | [What is the main goal of React Fiber?](#what-is-the-main-goal-of-react-fiber)                                                                                                                                                   |
-| 21  | [What are controlled components?](#what-are-controlled-components)                                                                                                                                                               |
-| 22  | [What are uncontrolled components?](#what-are-uncontrolled-components)                                                                                                                                                           |
-| 23  | [What is the difference between createElement and cloneElement?](#what-is-the-difference-between-createelement-and-cloneelement)                                                                                                 |
-| 24  | [What is Lifting State Up in React?](#what-is-lifting-state-up-in-react)                                                                                                                                                         |
-| 25  | [What are Higher-Order Components?](#what-are-higher-order-components)                                                                                                                                                           |
-| 26  | [What is the children prop?](#what-is-children-prop)                                                                                                                                                                             |
-| 27  | [How do you write comments in React?](#how-to-write-comments-in-react)                                                                                                                                                           |
-| 28  | [What is reconciliation?](#what-is-reconciliation)                                                                                                                                                                               |
-| 29  | [Does the lazy function support named exports?](#does-the-lazy-function-support-named-exports)                                                                                                                                   |
+|     | **React核心**                                                                                                                                                                                                                   |
+| 1   | [  React是什么?](#what-is-react)                                                                                                                                                                                                 |
+| 2   | [React的发展历史?](#what-is-the-history-behind-react-evolution)                                                                                                                                      |
+| 3   | [React 的主要特性有哪些？](#what-are-the-major-features-of-react)                                                                                                                                                   |
+| 4   | [ JSX是什么 ?](#what-is-jsx)                                                                                                                                                                                                     |
+| 5   | [元素和组件的区别是什么?](#what-is-the-difference-between-an-element-and-a-component)                                                                                                              |
+| 6   | [如何在 React 中创建组件?](#how-to-create-components-in-react)                                                                                                                                                     |
+| 7   | [什么时候应该优先使用类组件而非函数组件?](#when-to-use-a-class-component-over-a-function-component)                                                                                                    |
+| 8   | [什么是纯组件?](#what-are-pure-components)                                                                                                                                                                           |
+| 9   | [ React 中的state是什么?](#what-is-state-in-react)                                                                                                                                                                               |
+| 10  | [React中的props是什么?](#what-are-props-in-react)                                                                                                                                                                             |
+| 11  | [ state 和 props 的区别是什么?](#what-is-the-difference-between-state-and-props)                                                                                                                               |
+| 12  | [HTML 和 React 事件处理的区别是什么？](#what-is-the-difference-between-html-and-react-event-handling)                                                                                                   |
+| 13  | [React 中的合成事件是什么?](#what-are-synthetic-events-in-react)                                                                                                                                                       |
+| 14  | [什么是行内条件表达式?](#what-are-inline-conditional-expressions)                                                                                                                                             |
+| 15  | [“key” 属性是干什么的，在元素数组中使用它有什么好处？](#what-is-key-prop-and-what-is-the-benefit-of-using-it-in-arrays-of-elements)                                                                    |
+| 16  | [什么是虚拟DOM?](#what-is-virtual-dom)                                                                                                                                                                                 |
+| 17  | [虚拟DOM是如何工作的?](#how-virtual-dom-works)                                                                                                                                                                         |
+| 18  | [Shadow DOM和Virtual DOM之间有什么区别?](#what-is-the-difference-between-shadow-dom-and-virtual-dom)                                                                                                         |
+| 19  | [什么是React Fiber?](#what-is-react-fiber)                                                                                                                                                                                     |
+| 20  | [React Fiber的主要目的是什么?](#what-is-the-main-goal-of-react-fiber)                                                                                                                                                   |
+| 21  | [什么是受控组件?](#what-are-controlled-components)                                                                                                                                                               |
+| 22  | [什么是非受控组件?](#what-are-uncontrolled-components)                                                                                                                                                           |
+| 23  | [createElement和cloneElement之间的区别是什么?](#what-is-the-difference-between-createelement-and-cloneelement)                                                                                                 |
+| 24  | [React中的“状态提升”是什么?](#what-is-lifting-state-up-in-react)                                                                                                                                                         |
+| 25  | [什么是高阶组件?](#what-are-higher-order-components)                                                                                                                                                           |
+| 26  | [什么是children属性?](#what-is-children-prop)                                                                                                                                                                             |
+| 27  | [在React中如何编写注释?](#how-to-write-comments-in-react)                                                                                                                                                           |
+| 28  | [什么是协调(reconciliation)?](#what-is-reconciliation)                                                                                                                                                                               |
+| 29  | [惰性函数支持命名导出吗?](#does-the-lazy-function-support-named-exports)                                                                                                                                   |
 | 30  | [Why does React use className instead of the class attribute?](#why-react-uses-classname-over-class-attribute)                                                                                                                   |
 | 31  | [What are Fragments?](#what-are-fragments)                                                                                                                                                                                       |
 | 32  | [Why are Fragments better than container divs?](#why-fragments-are-better-than-container-divs)                                                                                                                                   |
